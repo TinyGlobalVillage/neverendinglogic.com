@@ -12,7 +12,7 @@ const HeroSection = styled.section`
 `;
 
 const MainContent = styled.main`
-  color: red;
+  color: #00ffff;
   text-align: center;
   padding-top: 20vh;
 `;
@@ -22,11 +22,10 @@ export default function Home() {
     <HeroSection>
       <MainContent>
         <h1>
-          🚧 Welcome to the Temporary Gateway for neverendinglogic.com 🚧
+          🚧 Welcome to the Temporary Gateway for
+          neverendinglogic.com 🚧
         </h1>
-        <p>
-          This website is currently under construction.
-        </p>
+        <p>This website is currently under construction.</p>
         <p>Please check back soon!!</p>
       </MainContent>
     </HeroSection>
